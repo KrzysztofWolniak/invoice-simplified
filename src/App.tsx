@@ -12,14 +12,14 @@ function App() {
     <div className="container-fluid">
       <div className="row bg-success">Navbar</div>
       <div className="row">
-        <div className="col-2 bg-primary">
+        <aside className="col-2 bg-primary">
           <p className="month">text</p>
           <p className="month">text</p>
           <p className="month">text</p>
           <p className="month">text</p>
           <p className="month">text</p>
           <p className="month">text</p>
-        </div>
+        </aside>
         <div className="col-10 bg-danger text-center">
           <p>Numer faktury:</p>
           <p>Czy została wysłana:</p>
