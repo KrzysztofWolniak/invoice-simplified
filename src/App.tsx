@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./logo.svg";
+
 import "./App.css";
 import { useAppSelector } from "./hooks/reduxHooks";
 import { Invoice } from "./components/Invoice";
@@ -21,10 +21,6 @@ function App() {
           <p className="month">text</p>
         </aside>
         <div className="col-10 bg-danger text-center">
-          <p>Numer faktury:</p>
-          <p>Czy została wysłana:</p>
-          <p>Dane kupującego:</p>
-          <p>Adres:</p>
           <Invoice text="Text" />
         </div>
       </div>
