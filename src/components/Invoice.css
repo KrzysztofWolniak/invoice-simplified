@@ -12,3 +12,6 @@
     min-width: 825px !important;
     max-width: 825px !important;
 }
+.a4-aspect-ratio{
+    aspect-ratio: 1/1.4142 !important;
+}
