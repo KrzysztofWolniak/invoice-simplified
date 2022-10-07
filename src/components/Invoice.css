@@ -9,8 +9,8 @@
     font-size: 8.6px;
 }
 .a4-size{
-    min-width: 825px !important;
-    max-width: 825px !important;
+    min-width: 794px !important;
+    max-width: 794px !important;
 }
 .a4-aspect-ratio{
     aspect-ratio: 1/1.4142 !important;
