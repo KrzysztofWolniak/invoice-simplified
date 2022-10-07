@@ -4,7 +4,7 @@ import "./Invoice.css";
 export const Invoice = (props: any) => {
   return (
     <div
-      className="container base-font-size a4-size"
+      className="container base-font-size d-flex flex-column a4-size a4-aspect-ratio"
       style={{ backgroundColor: "white" }}
     >
       <div className="row">
@@ -125,6 +125,75 @@ export const Invoice = (props: any) => {
         </div>
         <div className="col px-0">
           <small> 7800,00</small>{" "}
+        </div>
+      </div>
+      <div className="row mx-3 px-0">
+        <div className="col-6 d-flex  bg-secondary  px-0 ">
+          <p className="mx-auto  ps-0 mb-0 bg-secondary ">Forma płatności</p>
+          <p className="mx-auto  mb-0 bg-secondary">Termin</p>
+          <p className="mx-auto mb-0 bg-secondary"> Status płatności</p>
+        </div>
+        <div className="col-6 d-flex  px-0 ">
+          <p className="  mb-0 w-25 bg-secondary"></p>
+          <p className="mx-auto w-50 mb-0 bg-secondary ">Stawka</p>
+          <p className="mx-auto w-50 mb-0 bg-secondary">Netto</p>
+          <p className="mx-auto w-50 mb-0 bg-secondary">VAT</p>
+          <p className="mx-auto w-50 mb-0  bg-secondary">Brutto</p>
+        </div>
+        <div className="col-6 d-flex    px-0 ">
+          <p className="mx-auto  ps-0 mb-0  ">Forma płatności</p>
+          <p className="mx-auto  mb-0 ">Termin</p>
+          <p className="mx-auto mb-0 "> Status płatności</p>
+        </div>
+        <div className="col-6 d-flex  px-0 ">
+          <p className="  mb-0 w-25 bg-secondary">Razem:</p>
+          <p className="mx-auto w-50 mb-0  ">Stawka</p>
+          <p className="mx-auto w-50 mb-0 ">Netto</p>
+          <p className="mx-auto w-50 mb-0 ">VAT</p>
+          <p className="mx-auto w-50 mb-0 text-end pe-1">Brutto</p>
+        </div>
+        <div className="col-6 d-flex  px-0 "></div>
+        <div className="col-6 d-flex  px-0 ">
+          <p className="  mb-0 w-25 bg-secondary">W tym:</p>
+          <p className="mx-auto w-50 mb-0  ">Stawka</p>
+          <p className="mx-auto w-50 mb-0 ">Netto</p>
+          <p className="mx-auto w-50 mb-0 ">VAT</p>
+          <p className="mx-auto w-50 mb-0  text-end pe-1">7800,00PLN</p>
+        </div>
+      </div>
+      <div className="row  mx-3 border px-0 bg-secondary  mt-auto">
+        <div className="col px-0 text-start ">
+          <p className="mb-0 ps-2">Razem do zapłaty</p>
+        </div>
+        <div className="col text-end pe-0 ">
+          <p className="mb-0 pe-3 ">7800,00PLN</p>
+        </div>
+      </div>
+      <div className="row mx-3 px-0">
+        <div className="col text-end px-0">
+          <p className=" mb-0 ultra-small fst-italic">
+            Słownie: siedem tys. osiemset PLN 00/100
+          </p>
+        </div>
+      </div>
+      <hr className="mx-3 opacity-100 px-0 " />
+      <div className="row mx-3 mb-5 mt-3   justify-content-between">
+        <div className="col-4 d-flex flex-column">
+          <p className=" mb-0 fw-bold">Monika Wolniak</p>
+          <p className="ultra-small border-top border-dark mb-0">
+            Podpis osoby uprawnionej do wystawienia faktury
+          </p>
+        </div>
+        <div className="col-2 px-0  d-flex flex-column  mt-4 ">
+          <p className="ultra-small border-top border-dark mb-0">
+            Data odbioru
+          </p>
+        </div>
+        <div className="col-4 d-flex flex-column">
+          <p className=" mb-0 fw-bold text-white">a</p>
+          <p className="ultra-small border-top border-dark mb-0">
+            Podpis osoby uprawnionej do wystawienia faktury
+          </p>
         </div>
       </div>
     </div>
