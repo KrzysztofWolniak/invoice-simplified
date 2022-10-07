@@ -10,7 +10,7 @@ function App() {
   /*const dispatch = useAppDispatch();*/
   return (
     <div className="container-fluid">
-      <div className="row bg-success">Navbar</div>
+      {/* <div className="row bg-success">Navbar</div> */}
       <div className="row">
         <aside className="col-2 bg-primary">
           <p className="month">text</p>
